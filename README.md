@@ -1,11 +1,11 @@
 # homebrew-grove
 
-Homebrew tap for [Grove](https://github.com/henrypl/grove) - mobile terminal server for Claude Code.
+Homebrew tap for [Grove](https://github.com/henrypldev/grove) - mobile terminal server for Claude Code.
 
 ## Installation
 
 ```bash
-brew tap henrypl/grove
+brew tap henrypldev/grove
 brew install grove
 ```
 
