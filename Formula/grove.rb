@@ -1,13 +1,13 @@
 class Grove < Formula
   desc "Mobile terminal server for Claude Code - manage sessions from your phone"
   homepage "https://github.com/henrypldev/grove"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/henrypldev/grove/releases/download/v#{version}/grove-#{version}-darwin-arm64.tar.gz"
-      sha256 "dcde95e99b936482094e06ff857885650d4a7336c619ae341c0858788c0745ee"
+      sha256 "aba828bdd1ca950a58c300c87c38ad8e004b0d365eb186b5b8f43a960401f28e"
 
       def install
         bin.install "grove-#{version}-darwin-arm64" => "grove"
@@ -16,7 +16,7 @@ class Grove < Formula
 
     on_intel do
       url "https://github.com/henrypldev/grove/releases/download/v#{version}/grove-#{version}-darwin-x64.tar.gz"
-      sha256 "a325a23631131388d150f524dddb7d25960ff0a02b2a95959ce5ef912f0b7b32"
+      sha256 "0fb06af961351dd69e528b9709b1350a6b8a1a171a60e9c9f7d97c0437984c6d"
 
       def install
         bin.install "grove-#{version}-darwin-x64" => "grove"
